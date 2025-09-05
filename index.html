@@ -4,10 +4,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Rezn1r | Home</title>
+  <meta name="title" content="Rezn1r | Minecraft Addons">
+  <meta name="description" content="Minecraft Bedrock Addons by Rezn1r — Vanilla Extended, Better NightVision, Simple AutoSmelt, and more. Achievement-friendly and lightweight.">
+  <meta name="keywords" content="Minecraft, Bedrock, Addons, Mods, Rezn1r, MCPEDL, CurseForge, Vanilla Extended, Night Vision, AutoSmelt">
+  <meta name="author" content="Rezn1r">
+  <meta name="robots" content="index, follow">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://rezn1rmc.github.io/">
+  <meta property="og:title" content="Rezn1r | Minecraft Addons">
+  <meta property="og:description" content="Achievement-friendly Minecraft Bedrock Addons. Expand vanilla gameplay with fun, lightweight mods.">
+
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://rezn1rmc.github.io/">
+  <meta property="twitter:title" content="Rezn1r | Minecraft Addons">
+  <meta property="twitter:description" content="Achievement-friendly Minecraft Bedrock Addons. Expand vanilla gameplay with fun, lightweight mods.">
+
+  <meta name="theme-color" content="#b84c4c">
+
   <link rel="stylesheet" href="style/terminal.css">
   <link rel="stylesheet" href="style/index.css">
-
-  <title>Rezn1r | Home</title>
 </head>
 <div style="width: 1024px; max-width: 100%;" class="headline">
   <h1 id="headline"><a href="/" style="color: inherit; text-decoration: none;">Rezn1r</a></h1>
@@ -32,9 +49,7 @@
 
     <div class="card">
       <h3>Better NightVision</h3>
-      <p>
-      Toggle Night Vision Instantly, No Commands Needed! (Does not disable achievements)
-      The Lightweight Night Vision Solution for Minecraft Bedrock (1.21+)</p>
+      <p>Toggle Night Vision Instantly, No Commands Needed! (Does not disable achievements) The Lightweight Night Vision Solution for Minecraft Bedrock (1.21+)</p>
       <a href="https://www.curseforge.com/minecraft-bedrock/addons/better-nightvision"><button>View Add-On</button></a>
     </div>
 
@@ -71,15 +86,12 @@
   <script>
     $(document).ready(function() {
       let elements = $("body *").not(".headline, .headline *");
-      
       elements.addClass("animate-in");
-      
       elements.each(function(i, el) {
         setTimeout(() => {
           $(el).addClass("show");
         }, i * 30); 
       });
-
       fetch("https://api.kanye.rest/")
         .then(res => res.json())
         .then(data => {
