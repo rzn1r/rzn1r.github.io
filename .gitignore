@@ -1,0 +1,22 @@
+# Dependencies
+node_modules
+package-lock.json
+
+# Build output
+dist
+
+# Development
+.vite
+
+# Editor directories
+.vscode
+.idea
+
+# Temporary files
+*.log
+*.bak
+index.html.bak
+
+# OS files
+.DS_Store
+Thumbs.db
